@@ -1,0 +1,40 @@
+body{
+    font-family: Arial ;
+    size: 14px;
+   color: navy;
+   background-color: #FFB6C1;
+   
+}
+h1 {
+    kerning: 3px;
+    text-decoration: underline overline;
+    text-align: center;
+    
+}
+h2{
+    kerning: 3px;
+    text-decoration: underline overline;
+}
+h3{
+    kerning: 3px;
+    text-decoration: underline overline;
+}
+.hotclass{
+    kerning: 6px;
+    color: hotpink;
+    font-style: italic; 
+    background-color: yellow;
+}
+.coldclass{
+    color: blue;
+    font-style: bold;
+    color: #0096FF;
+    background-color:#ADD8E6; 
+    kerning: 20px;
+    text-align: center;
+}
+hr{
+    background-color: red;
+    height: 5px;
+}
+ 
