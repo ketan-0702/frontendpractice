@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.header {
+    background-color: #555;
+    padding: 10px;
+    
+}
+
+.main {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    margin-right: 10px;
+}
+
+.sidebar p {
+    background-color: blue;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.main-content {
+    color: #000;
+    padding: 20px;
+    
+}
+
+.footer {
+    background-color: #555;
+    padding: 10px;
+    clear: both;
+}
