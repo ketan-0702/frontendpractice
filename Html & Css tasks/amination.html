@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgba(153, 244, 244, 0.728);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+      }
+
+      .animation {
+        background-color: whitesmoke;
+        overflow: hidden;
+        box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.5);
+        width: 600px;
+      }
+
+      .anime p {
+        text-align: center;
+        font-size: 20px;
+        animation: anime 6s linear infinite;
+      }
+
+      @keyframes anime {
+        from {
+          transform: translateX(600px);
+        }
+        to {
+          transform: translateX(-600px);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="animation">
+      <div class="anime">
+        <p>This text is scrolling from left to right inside a div container</p>
+      </div>
+    </div>
+  </body>
+</html>

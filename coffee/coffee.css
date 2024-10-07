@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+    
+}
+header img{
+    height: 50px;
+    width: 100px;
+}
+.header-item{
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+.header-item a{
+    text-decoration: none;
+    color:antiquewhite;
+    margin-right: 80px;
+   
+}
+.coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("./image/Cafe3.jpeg") center/cover no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}

@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgba(252, 72, 56, 0.728);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+      }
+
+      .animation {
+        background-color: whitesmoke;
+        overflow: hidden;
+        box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.5);
+        width: 600px;
+      }
+      img{
+        width: 100px;
+        height: 150px;
+      }
+
+      .anime img {
+        text-align: center;
+        font-size: 20px;
+        animation: anime 4s linear infinite;
+      }
+
+      @keyframes anime {
+        from {
+          transform: translateX(700%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="animation">
+      <div class="anime">
+        <img src="./img/images.jpeg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
